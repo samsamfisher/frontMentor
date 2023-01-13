@@ -1,0 +1,27 @@
+.footer {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    align-self: flex-end;
+
+    &__next {
+        position: absolute;
+        right: 0;
+        height: 35px;
+        margin: 10px 15px;
+        padding: 5px;
+        border-radius: 5px;
+        color: #fff;
+        background-color: #04295D;
+    }
+
+    &__back {
+        margin-left: 10px;
+        border-style: none;
+        color: #9D9DA9;
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,49 @@
+.infos {
+    &__plan {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__btn {
+        margin: 10px 0;
+        padding: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid #DBDBDD;
+        border-radius: 5px;
+        background-color: #fff;
+
+
+        &-title {
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        &-subtitle {
+            color: #A3A3AB;
+            font-size: 0.9em;
+        }
+    }
+
+
+    &__logo {
+        margin-right: 12px;
+    }
+
+    &__desc {
+        text-align: left;
+    }
+
+    &__toggle {
+        padding: 10px;
+        text-align: center;
+        background-color: #F8F9FE;
+        border-radius: 5px;
+    }
+
+    &__check {
+        margin: 0 25px;
+    }
+
+}

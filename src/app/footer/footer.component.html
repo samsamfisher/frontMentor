@@ -1,0 +1,4 @@
+<footer class="footer">
+    <button class="footer__back"  *ngIf="isVisible" [routerLink]="['']">Go Back</button>
+    <button class="footer__next" (click)="isVisible = true" [routerLink]="['/plan']">Next Step</button>
+</footer>

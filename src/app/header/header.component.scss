@@ -1,0 +1,28 @@
+.header {
+    &__img {
+        width: 100%;
+    }
+
+    &__slides {
+        position: absolute;
+    top:20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    }
+
+    &__num {
+        padding: 0 6px;
+        margin: 5px;
+        border: 1px solid #E5E1FF;
+        border-radius: 50%;
+        color: #E5E1FF;
+
+        &-1 {
+            background-color: #BEE1FD;
+            color: #001D49;
+        }
+    }
+
+}
+
